@@ -1,0 +1,62 @@
+diff --git a/config/assets.json b/config/assets.json
+index 5df1d1b332f4fa22e7246004916eb8ea2d9aab3d..31785ae6cd7ba470ef3a7aebcbefd7ef9482a1c0 100644
+--- a/config/assets.json
++++ b/config/assets.json
+@@ -1,19 +1,44 @@
+ {
+-    "crypto": [
+-        "BTC/USDT",
+-        "ETH/USDT",
+-        "SOL/USDT",
+-        "XRP/USDT"
+-    ],
+-    "stocks": [
++    "Equities": [
+         "AAPL",
+-        "TSLA",
++        "MSFT",
+         "NVDA",
+-        "SPY"
++        "NESN.SW",
++        "MC.PA"
++    ],
++    "Indices": [
++        "SPX",
++        "NDX",
++        "STOXX50E",
++        "FTSE"
++    ],
++    "Rates": [
++        "US10Y",
++        "US2Y",
++        "DE10Y",
++        "FR10Y"
+     ],
+-    "forex": [
++    "Credit": [
++        "US HY OAS",
++        "US IG OAS",
++        "EMBI"
++    ],
++    "FX": [
+         "EUR/USD",
++        "USD/JPY",
+         "GBP/USD",
+-        "USD/JPY"
++        "USD/CHF"
++    ],
++    "Commodities": [
++        "WTI",
++        "Brent",
++        "Gold",
++        "Copper"
++    ],
++    "Crypto": [
++        "BTC",
++        "ETH",
++        "SOL",
++        "XRP"
+     ]
+-}
+\ No newline at end of file
++}

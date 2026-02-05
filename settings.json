@@ -1,0 +1,50 @@
+diff --git a/config/settings.json b/config/settings.json
+index 0a4fb7580f8c837f45769192de68879ec609338f..c9164827d5d93593b8f03f07f2e141a92ea20d81 100644
+--- a/config/settings.json
++++ b/config/settings.json
+@@ -1,25 +1,23 @@
+ {
+     "theme": "dark",
+-    "timeframes": [
+-        "15m",
+-        "1h",
+-        "4h",
+-        "1d"
+-    ],
+-    "default_timeframe": "4h",
+-    "trading_sessions": {
+-        "London": {
+-            "start": "07:00",
+-            "end": "16:00"
+-        },
+-        "New York": {
+-            "start": "13:00",
+-            "end": "22:00"
+-        }
++    "default_horizon": "Moyen terme",
++    "palette": {
++        "background": "#0B0F14",
++        "panel": "#111824",
++        "panel_alt": "#0F172A",
++        "text": "#E2E8F0",
++        "muted": "#94A3B8",
++        "accent": "#38BDF8",
++        "accent_alt": "#22C55E",
++        "danger": "#F97316",
++        "border": "#1F2A37"
+     },
+-    "risk_per_trade": 0.01,
+-    "candle_colors": {
+-        "bullish": "#00FF00",
+-        "bearish": "#FF0000"
++    "macro_weights": {
++        "growth": 0.2,
++        "inflation": 0.2,
++        "rates": 0.2,
++        "liquidity": 0.15,
++        "geopolitics": 0.15,
++        "flows": 0.1
+     }
+-}
+\ No newline at end of file
++}

@@ -1,8 +1,3 @@
-diff --git a/app.py b/app.py
-index 9ba93e1dc357ca2e184bbf6269724b095a49acf2..4eae135dd5ff1a912fd66bbed5799400eac7432b 100644
---- a/app.py
-+++ b/app.py
-@@ -1,293 +1,536 @@
  #!/usr/bin/env python3
  # -*- coding: utf-8 -*-
  
@@ -806,4 +801,5 @@ index 9ba93e1dc357ca2e184bbf6269724b095a49acf2..4eae135dd5ff1a912fd66bbed5799400
 +
 +if __name__ == "__main__":
 +    main()
+
 

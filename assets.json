@@ -1,5 +1,0 @@
-{
-    "crypto": ["BTC/USDT", "ETH/USDT", "SOL/USDT", "XRP/USDT"],
-    "stocks": ["AAPL", "TSLA", "NVDA", "SPY"],
-    "forex": ["EUR/USD", "GBP/USD", "USD/JPY"]
-}
